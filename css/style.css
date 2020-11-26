@@ -132,7 +132,7 @@ h5 {
   margin-top: 20vh; }
 
 @media all and (max-width: 890px) {
-  .content-In-Box {
+  .content-In-Box-Index {
     margin: 30vh 10vw;
     height: 20rem;
     width: 80vw; } }
@@ -318,7 +318,8 @@ h5 {
   margin-left: 5vw;
   width: 90vw;
   height: 100%;
-  background-color: #145370; }
+  background-color: #145370;
+  border-radius: 10px; }
   .boot-Cursos img {
     width: cover;
     height: 13rem; }
@@ -404,7 +405,13 @@ h5 {
 .containBoxDatos-Contacto {
   width: 30vw;
   height: 40vh;
-  margin: 20vh 0vw 20vw 1vw; }
+  margin: 20vh 0vw 20vw 1vh; }
+
+@media all and (max-width: 900px) {
+  .containBoxDatos-Contacto {
+    text-align: center; }
+    .containBoxDatos-Contacto img {
+      margin-bottom: 1rem; } }
 
 .containFormContact {
   width: 70vw;
@@ -436,10 +443,7 @@ h5 {
     background-color: rgba(20, 83, 112, 0.623); }
 
 fieldset {
-  font-size: 2vw;
-  color: #fff;
-  text-align: center;
-  font-family: 'Fredericka the Great', cursive; }
+  text-align: center; }
 
 .transformLabel {
   font-size: 1.5vw;
@@ -448,7 +452,7 @@ fieldset {
 @media all and (max-width: 900px) {
   .containFormContact {
     position: relative;
-    top: 5vh; }
+    top: 0vh; }
     .containFormContact .transformLabel {
       font-size: 1rem; }
     .containFormContact .value {
@@ -456,5 +460,7 @@ fieldset {
       margin-left: 2vw; }
     .containFormContact select {
       width: auto; }
+    .containFormContact textarea {
+      margin-bottom: 1rem; }
   .containBoxDatos-Contacto {
     width: auto; } }

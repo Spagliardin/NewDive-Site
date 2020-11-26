@@ -7,8 +7,16 @@
 .containBoxDatos-Contacto{
     width: 30vw;
     height: 40vh;
-    margin: 20vh 0vw 20vw 1vw;
+    margin: 20vh 0vw 20vw 1vh;
+}
 
+@media all and (max-width: 900px){
+    .containBoxDatos-Contacto{
+        text-align: center;
+        img{
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 .containFormContact{
@@ -47,10 +55,7 @@
 }
 
 fieldset{
-    font-size: 2vw;
-    color: #fff;
     text-align: center;
-    font-family: 'Fredericka the Great', cursive;
 }
 
 .transformLabel{
@@ -62,7 +67,7 @@ fieldset{
 
     .containFormContact{
         position: relative;
-        top: 5vh;
+        top: 0vh;
         .transformLabel{
             font-size: 1rem;
         }
@@ -74,6 +79,9 @@ fieldset{
 
         select{
             width: auto;
+        }
+        textarea{
+            margin-bottom: 1rem;
         }
     }
 
