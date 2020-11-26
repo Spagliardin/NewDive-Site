@@ -1,0 +1,460 @@
+[class*=bg-Primary-] {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  z-index: -1; }
+
+[class*=btn] {
+  border-color: #c2e4f4;
+  color: #c2e4f4;
+  border-radius: 15px; }
+  [class*=btn]:hover {
+    background-color: #c2e4f4;
+    border-color: #c2e4f4; }
+
+[class*=first-Content] {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center; }
+
+[class*=content-In-Box] {
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #145370; }
+
+.aling-right {
+  text-align: right; }
+
+.aling-left {
+  text-align: left; }
+
+.aling-center {
+  text-align: center; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #0f4c81;
+  margin: 0;
+  color: #ffffff; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-size: 3vw; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 1.5rem; }
+
+.upp {
+  text-transform: uppercase; }
+
+.title, .relevant {
+  font-family: 'Fredericka the Great', cursive; }
+
+.text {
+  font-size: 1rem; }
+
+/* sigue background de fondo principal */
+.bg-Primary-Index {
+  background-image: url(../img/backgroundIndex.png); }
+
+@media all and (max-width: 760px) {
+  .bg-Primary-Index {
+    background-size: 50rem; } }
+
+/* Estilo Logo + Menu (Header) */
+.containerHeader:hover {
+  transition: 0.5s;
+  background-color: #145370; }
+
+.listMenu {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 1.5rem; }
+  .listMenu .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 40px; }
+    .listMenu .navbar-nav .nav-link:hover {
+      color: rgba(0, 238, 255, 0.548); }
+
+.containerLogo {
+  width: 6rem;
+  height: 6rem;
+  margin-left: 2vw; }
+
+@media all and (max-width: 991px) {
+  .containerHeader {
+    background-color: #145370; }
+  .listMenu {
+    justify-content: flex-start; } }
+
+.first-Content-Index {
+  margin-top: 20vh;
+  margin-right: 30vw; }
+
+@media all and (max-width: 768px) {
+  .first-Content-Index {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .first-Content-Index .title, .first-Content-Index .relevant {
+      font-size: 3rem;
+      padding-left: 2vw;
+      text-align: center; } }
+
+.content-In-Box-Index {
+  height: 47vh;
+  width: 27vw;
+  margin-left: 60vw;
+  margin-top: 20vh; }
+
+@media all and (max-width: 890px) {
+  .content-In-Box {
+    margin: 30vh 10vw;
+    height: 20rem;
+    width: 80vw; } }
+
+.subtitle {
+  margin-top: 18vh;
+  margin-left: 10vw; }
+
+.box-Container-Travels {
+  margin-top: 20vh;
+  padding: 0 5px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #145370; }
+  .box-Container-Travels .container-Img {
+    width: 60rem; }
+    .box-Container-Travels .container-Img img {
+      width: 100%; }
+  .box-Container-Travels .container-Text-Travels {
+    padding: 0 20px; }
+
+@media all and (max-width: 768px) {
+  .box-Container-Travels {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column; }
+    .box-Container-Travels .container-Img {
+      width: 100%; } }
+
+.box-Container-Cert {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .box-Container-Cert .certificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(../img/bottom-of-the-sea.jpg);
+    background-position: center;
+    background-size: cover; }
+
+.container-Button-Video {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10vh;
+  background-color: #145370; }
+  .container-Button-Video .container-Button-Accion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .container-Button-Video .content-Video {
+    width: 40rem; }
+    .container-Button-Video .content-Video video {
+      width: 100%; }
+
+/* Footer */
+.container-Footer {
+  background-color: #08232f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px; }
+  .container-Footer .content-Nav-Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    flex-wrap: wrap; }
+  .container-Footer .container-Logo-Redes {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0; }
+    .container-Footer .container-Logo-Redes .container-Logo-Footer {
+      width: 10rem; }
+      .container-Footer .container-Logo-Redes .container-Logo-Footer img {
+        width: 100%; }
+
+/* Estilo view El instituto */
+.bg-Primary-Instituto {
+  background-image: url(../img/adventure-diver.jpg); }
+
+@media all and (max-width: 760px) {
+  .bg-Primary-Instituto {
+    background-size: 50rem; } }
+
+.content-In-Box-Institucional {
+  margin-top: 40vh;
+  margin-left: 5vw;
+  width: 35rem;
+  height: 55vh; }
+
+@media all and (max-width: 890px) {
+  .content-In-Box-Institucional {
+    margin: 50vh 5vw 0;
+    padding-top: 1vh;
+    width: 90vw;
+    height: 70vh; }
+    .content-In-Box-Institucional h1 {
+      font-size: 2rem; } }
+
+.img-personalized {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%; }
+
+.containStaff {
+  margin-top: 10vh;
+  width: 100%;
+  height: 70vh;
+  background-color: #145370;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 90%;
+  background-image: url(../img/img-staff.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5vh;
+  transition: all 1s; }
+  .containStaff:hover {
+    opacity: 0.7; }
+  .containStaff h2 {
+    margin-top: 5vh;
+    margin-left: 5vw; }
+  .containStaff h3 {
+    margin-top: 40vh;
+    font-size: 2vw;
+    text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
+    opacity: 0; }
+  .containStaff:hover h3 {
+    animation-duration: 2s;
+    animation-name: email;
+    animation-fill-mode: forwards; }
+
+@keyframes email {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    font-size: 3.5vw; } }
+
+@media all and (max-width: 760px) {
+  .containStaff {
+    background-repeat: no-repeat;
+    margin-top: 10vh;
+    margin-bottom: 1vh; }
+    .containStaff h3 {
+      opacity: 1;
+      text-align: center;
+      font-size: 1.5rem; } }
+
+/* Estilo View Cursos */
+.bg-Primary-Cursos {
+  background-image: url(../img/Belgrano2222.jpg); }
+
+@media all and (max-width: 760px) {
+  .bg-Primary-Cursos {
+    background-size: 50rem; } }
+
+.boot-Cursos {
+  padding: 1.5vh 1.5vw;
+  margin: 50vh 0 20vh;
+  margin-left: 5vw;
+  width: 90vw;
+  height: 100%;
+  background-color: #145370; }
+  .boot-Cursos img {
+    width: cover;
+    height: 13rem; }
+
+.slide {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 100%;
+  height: auto; }
+
+#img-Belgrano {
+  height: 80vh; }
+
+#img-Caballito {
+  height: 80vh; }
+
+#img-Mataderos {
+  height: 80vh; }
+
+/* style view Actividades */
+.bg-Primary-Actividades {
+  background-image: url(../img/img-Diving.jpg); }
+
+@media all and (max-width: 760px) {
+  .bg-Primary-Actividades {
+    background-size: 50rem; } }
+
+.content-In-Box-Actividades {
+  margin-top: 45vh;
+  margin-left: 50vw;
+  width: 40vw;
+  height: cover; }
+  .content-In-Box-Actividades h1 {
+    font-size: 2rem;
+    margin-right: 11vw;
+    margin-bottom: 2vh; }
+  .content-In-Box-Actividades form {
+    margin-left: 20vw; }
+
+@media all and (max-width: 900px) {
+  .content-In-Box-Actividades {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    height: cover; } }
+
+.container-Box-Casamiento {
+  margin-top: 15vh;
+  padding: 20px 20px;
+  width: 100%;
+  height: cover;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  background-color: #145370; }
+  .container-Box-Casamiento .desc-Casamiento {
+    padding: 4vh 0px;
+    width: 35rem; }
+  .container-Box-Casamiento .img-Casamiento {
+    width: 35rem;
+    height: auto; }
+
+.container-Box-Apnea {
+  margin-top: 15vh;
+  padding: 20px 20px;
+  width: 100%;
+  height: cover;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #145370; }
+  .container-Box-Apnea .desc-Apnea {
+    padding: 10vw 0px;
+    width: 35rem; }
+  .container-Box-Apnea .img-Apnea {
+    width: 35rem;
+    height: auto; }
+
+/* Style view "contacto" */
+.bg-Primary-Contacto {
+  background-image: url(../img/img-contacto.jpg); }
+
+.containBoxDatos-Contacto {
+  width: 30vw;
+  height: 40vh;
+  margin: 20vh 0vw 20vw 1vw; }
+
+.containFormContact {
+  width: 70vw;
+  height: 70vh;
+  position: absolute;
+  right: 1vw;
+  top: 25vh; }
+  .containFormContact .value {
+    padding-left: 10px;
+    width: 15vw;
+    height: 5vh;
+    font-size: 1rem;
+    border: 1px solid #145370;
+    border-radius: 20px;
+    background-color: rgba(20, 83, 112, 0.623); }
+  .containFormContact select {
+    padding-left: 10px;
+    width: 12vw;
+    height: 5vh;
+    font-size: 1.1rem;
+    border: 1px solid #145370;
+    border-radius: 20px;
+    background-color: rgba(20, 83, 112, 0.623); }
+  .containFormContact textarea {
+    padding-left: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #145370;
+    border-radius: 20px;
+    background-color: rgba(20, 83, 112, 0.623); }
+
+fieldset {
+  font-size: 2vw;
+  color: #fff;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive; }
+
+.transformLabel {
+  font-size: 1.5vw;
+  padding-right: .2vw; }
+
+@media all and (max-width: 900px) {
+  .containFormContact {
+    position: relative;
+    top: 5vh; }
+    .containFormContact .transformLabel {
+      font-size: 1rem; }
+    .containFormContact .value {
+      width: auto;
+      margin-left: 2vw; }
+    .containFormContact select {
+      width: auto; }
+  .containBoxDatos-Contacto {
+    width: auto; } }

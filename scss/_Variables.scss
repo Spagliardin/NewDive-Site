@@ -1,0 +1,51 @@
+$primary-color: rgb(15, 76, 129);
+$secondary-color: rgb(20, 83, 112);
+
+[class*=bg-Primary-]{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+[class*=btn]{
+    border-color: lighten($secondary-color, 60);
+    color: lighten($secondary-color, 60);
+    border-radius: 15px;
+    &:hover{
+        background-color: lighten($secondary-color, 60);
+        border-color: lighten($secondary-color, 60);
+    }
+}
+
+[class*=first-Content]{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+[class*=content-In-Box]{
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $secondary-color;
+}
+
+$aling: (
+    right: right,
+    left: left,
+    center: center
+);
+
+@each $name, $value in $aling {
+    .aling-#{$name} {
+            text-align: $value;
+        }
+    }

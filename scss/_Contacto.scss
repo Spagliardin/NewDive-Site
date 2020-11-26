@@ -1,0 +1,86 @@
+.bg-Primary-Contacto{
+
+    background-image: url(../img/img-contacto.jpg);
+
+}
+
+.containBoxDatos-Contacto{
+    width: 30vw;
+    height: 40vh;
+    margin: 20vh 0vw 20vw 1vw;
+
+}
+
+.containFormContact{
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    right: 1vw;
+    top: 25vh;
+    .value{
+        padding-left: 10px;
+        width: 15vw;
+        height: 5vh;
+        font-size: 1rem;
+        border: 1px solid $secondary-color;
+        border-radius: 20px;
+        background-color: rgba(20, 83, 112, 0.623);
+    }
+
+    select{
+        padding-left: 10px;
+        width: 12vw;
+        height: 5vh;
+        font-size: 1.1rem;
+        border: 1px solid $secondary-color;
+        border-radius: 20px;
+        background-color: rgba(20, 83, 112, 0.623);
+    }
+
+    textarea{
+        padding-left: 10px;
+        font-size: 1.1rem;
+        border: 1px solid $secondary-color;
+        border-radius: 20px;
+        background-color: rgba(20, 83, 112, 0.623);
+    }
+}
+
+fieldset{
+    font-size: 2vw;
+    color: #fff;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.transformLabel{
+   font-size: 1.5vw;
+   padding-right: .2vw;
+}
+
+@media all and (max-width: 900px){
+
+    .containFormContact{
+        position: relative;
+        top: 5vh;
+        .transformLabel{
+            font-size: 1rem;
+        }
+
+        .value{
+            width: auto;
+            margin-left: 2vw;
+        }
+
+        select{
+            width: auto;
+        }
+    }
+
+    .containBoxDatos-Contacto{
+
+        width: auto;
+
+    }
+
+}

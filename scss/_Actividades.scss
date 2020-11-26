@@ -1,0 +1,77 @@
+.bg-Primary-Actividades{
+
+    background-image: url(../img/img-Diving.jpg);
+
+}
+
+@media all and (max-width: 760px){
+
+    .bg-Primary-Actividades{
+        background-size: 50rem;
+    }
+}
+
+.content-In-Box-Actividades{
+    margin-top: 45vh;
+    margin-left: 50vw;
+    width: 40vw;
+    height: cover;
+    h1{
+        font-size: 2rem;
+        margin-right: 11vw;
+        margin-bottom: 2vh;
+    }
+    form{
+        margin-left: 20vw;
+    }
+}
+
+@media all and (max-width: 900px){
+
+    .content-In-Box-Actividades{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        width: 90vw;
+        height: cover;
+      
+    }
+}
+
+.container-Box-Casamiento{
+    margin-top: 15vh;
+    padding: 20px 20px;
+    width: 100%;
+    height: cover;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    background-color: $secondary-color;
+    .desc-Casamiento{
+        padding: 4vh 0px;
+        width: 35rem;
+    }
+    .img-Casamiento{
+        width: 35rem;
+        height: auto;
+    }
+}
+
+.container-Box-Apnea{
+    margin-top: 15vh;
+    padding: 20px 20px;
+    width: 100%;
+    height: cover;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: $secondary-color;
+    .desc-Apnea{
+        padding: 10vw 0px;
+        width: 35rem;
+    }
+    .img-Apnea{
+        width: 35rem;
+        height: auto;
+    }
+}
+
