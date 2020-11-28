@@ -10,7 +10,8 @@
 [class*=btn] {
   border-color: #c2e4f4;
   color: #c2e4f4;
-  border-radius: 15px; }
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
   [class*=btn]:hover {
     background-color: #c2e4f4;
     border-color: #c2e4f4; }
@@ -28,7 +29,8 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #145370; }
+  background-color: #145370;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
 
 .aling-right {
   text-align: right; }
@@ -68,7 +70,8 @@ h5 {
   text-transform: uppercase; }
 
 .title, .relevant {
-  font-family: 'Fredericka the Great', cursive; }
+  font-family: 'Fredericka the Great', cursive;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
 
 .text {
   font-size: 1rem; }
@@ -84,7 +87,8 @@ h5 {
 /* Estilo Logo + Menu (Header) */
 .containerHeader:hover {
   transition: 0.5s;
-  background-color: #145370; }
+  background-color: #145370;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
 
 .listMenu {
   width: 60vw;
@@ -94,7 +98,8 @@ h5 {
   font-size: 1.5rem; }
   .listMenu .navbar-nav .nav-link {
     color: #ffffff;
-    padding: 40px; }
+    padding: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
     .listMenu .navbar-nav .nav-link:hover {
       color: rgba(0, 238, 255, 0.548); }
 
@@ -105,7 +110,8 @@ h5 {
 
 @media all and (max-width: 991px) {
   .containerHeader {
-    background-color: #145370; }
+    background-color: #145370;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
   .listMenu {
     justify-content: flex-start; } }
 
@@ -324,7 +330,8 @@ h5 {
   width: 90vw;
   height: 100%;
   background-color: #145370;
-  border-radius: 10px; }
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
   .boot-Cursos img {
     width: cover;
     height: 13rem; }
