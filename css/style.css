@@ -78,7 +78,8 @@ h5 {
 
 /* sigue background de fondo principal */
 .bg-Primary-Index {
-  background-image: url(../img/backgroundIndex.png); }
+  background-image: url(../img/backgroundIndex.png);
+  filter: opacity(0.7); }
 
 @media all and (max-width: 760px) {
   .bg-Primary-Index {
@@ -317,7 +318,8 @@ h5 {
 
 /* Estilo View Cursos */
 .bg-Primary-Cursos {
-  background-image: url(../img/Belgrano2222.jpg); }
+  background-image: url(../img/Belgrano2222.jpg);
+  filter: opacity(0.7); }
 
 @media all and (max-width: 760px) {
   .bg-Primary-Cursos {
@@ -343,17 +345,21 @@ h5 {
   height: auto; }
 
 #img-Belgrano {
-  height: 80vh; }
+  height: 80vh;
+  filter: opacity(0.7); }
 
 #img-Caballito {
-  height: 80vh; }
+  height: 80vh;
+  filter: opacity(0.8); }
 
 #img-Mataderos {
-  height: 80vh; }
+  height: 80vh;
+  filter: opacity(0.7); }
 
 /* style view Actividades */
 .bg-Primary-Actividades {
-  background-image: url(../img/img-Diving.jpg); }
+  background-image: url(../img/img-Diving.jpg);
+  filter: opacity(0.8); }
 
 @media all and (max-width: 760px) {
   .bg-Primary-Actividades {
