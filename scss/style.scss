@@ -221,6 +221,9 @@ h5{
         background-image: url(../img/bottom-of-the-sea.jpg);
         background-position: center;
         background-size: cover;
+        img{
+            filter: drop-shadow($shadow-standard);
+        }
     }
 }
 

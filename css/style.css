@@ -190,6 +190,8 @@ h5 {
     background-image: url(../img/bottom-of-the-sea.jpg);
     background-position: center;
     background-size: cover; }
+    .box-Container-Cert .certificate img {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5)); }
 
 .container-Button-Video {
   width: 100%;
