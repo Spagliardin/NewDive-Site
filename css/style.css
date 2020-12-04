@@ -424,12 +424,13 @@ h5 {
 
 .containBoxDatos-Contacto {
   width: 30vw;
-  height: 40vh;
+  height: 18vh;
   margin: 20vh 0vw 20vw 1vh; }
 
 @media all and (max-width: 900px) {
   .containBoxDatos-Contacto {
-    text-align: center; }
+    text-align: center;
+    height: 40vh; }
     .containBoxDatos-Contacto img {
       margin-bottom: 1rem; } }
 
@@ -437,7 +438,7 @@ h5 {
   width: 70vw;
   height: 70vh;
   position: absolute;
-  right: 1vw;
+  right: 1.5vw;
   top: 25vh; }
   .containFormContact .value {
     padding-left: 10px;
@@ -461,9 +462,8 @@ h5 {
     border: 1px solid #145370;
     border-radius: 20px;
     background-color: rgba(20, 83, 112, 0.623); }
-
-fieldset {
-  text-align: center; }
+  .containFormContact fieldset {
+    text-align: center; }
 
 .transformLabel {
   font-size: 1.5vw;

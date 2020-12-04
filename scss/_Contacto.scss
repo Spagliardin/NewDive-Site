@@ -6,13 +6,14 @@
 
 .containBoxDatos-Contacto{
     width: 30vw;
-    height: 40vh;
+    height: 18vh;
     margin: 20vh 0vw 20vw 1vh;
 }
 
 @media all and (max-width: 900px){
     .containBoxDatos-Contacto{
         text-align: center;
+        height: 40vh;
         img{
             margin-bottom: 1rem;
         }
@@ -23,7 +24,7 @@
     width: 70vw;
     height: 70vh;
     position: absolute;
-    right: 1vw;
+    right: 1.5vw;
     top: 25vh;
     .value{
         padding-left: 10px;
@@ -52,11 +53,12 @@
         border-radius: 20px;
         background-color: rgba(20, 83, 112, 0.623);
     }
+    
+    fieldset{
+    text-align: center;
+    }
 }
 
-fieldset{
-    text-align: center;
-}
 
 .transformLabel{
    font-size: 1.5vw;
